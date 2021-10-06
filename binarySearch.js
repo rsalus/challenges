@@ -19,9 +19,7 @@ function binarySearch(key, array) {
             high = mid - 1;
         else if(array[mid] < key)
             low = mid + 1;
-        else if(array[low] < high)
-            return -1;
-    }
+    } return -1;
 }
 
 console.log(
