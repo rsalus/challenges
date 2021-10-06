@@ -1,6 +1,6 @@
 /* https://leetcode.com/problems/two-sum/ */
-/* Runtime: 122 ms, faster than 38.88% */
-/* Memory Usage: 38.9 MB, less than 97.07% */
+/* O(n^2) Runtime: 122 ms, faster than 38.88% */
+/* O(1) Memory Usage: 38.9 MB, less than 97.07% */
 
 function TwoSum(nums, target) {
     const orig = target;

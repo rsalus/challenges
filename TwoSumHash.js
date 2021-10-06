@@ -1,6 +1,6 @@
 /* https://leetcode.com/problems/two-sum/ */
-/* Runtime: 109 ms, faster than 49.79% */
-/* Memory Usage: 41.3 MB, less than 18.32% */
+/* O(n) Runtime: 109 ms, faster than 49.79% */
+/* O(n) Memory Usage: 41.3 MB, less than 18.32% */
 
 function TwoSumHash(nums, target) {
     let hash = new Map();
