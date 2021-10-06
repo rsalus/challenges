@@ -26,4 +26,6 @@ function convertToRoman(num) {
     if(num === 0) return numerals;
 }
 
-convertToRoman(36);
+console.log(
+    convertToRoman(36)
+);

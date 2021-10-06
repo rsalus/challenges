@@ -5,4 +5,6 @@ function palindrome(str) {
     return (mod == modReverse);
 }
 
-palindrome("eye");
+console.log(
+    palindrome("eye")
+);
