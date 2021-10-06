@@ -1,3 +1,6 @@
+/* given a number, convert to equivalent in roman numerals */
+/* submitted to freecodecamp.org's course on javascript */
+
 function convertToRoman(num) {
     const numeralMap = {
         "M":    1000,
