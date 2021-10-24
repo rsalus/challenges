@@ -9,7 +9,7 @@ function buySellStock(prices) {
     for(let i = 0; i < prices.length; i++){
         if(prices[i] < min)
             min = prices[i];
-        else    /* calculate price for current day against curr max */
+        else    // calculate price for current day against curr max
             max = Math.max(max, prices[i] - min);
     }
     return max;
