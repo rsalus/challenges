@@ -27,7 +27,11 @@ console.log(
 );
 
 /*
-    In this problem, we can sort the intervals in advance and after that we can go through the sorted array and try to merge somehow these intervals. The key thing here is to come up with how we can merge the intervals. An idea is pretty simple. We need to check if the current interval begins after the previous interval ends. We can easily check it because we’ve sorted the intervals.
+    In this problem, we can sort the intervals in advance. 
+    After that we can go through the sorted array and try to somehow merge these intervals. 
+    The key thing here is to come up with how we can merge the intervals.
+    We need to check if the current interval begins after the previous interval ends. 
+    We can easily check it because we’ve sorted the intervals.
 */
 
 /*

@@ -16,7 +16,12 @@ console.log(
     containsDuplicate([1, 2, 3, 4, 5, 4])
 );
 
+// Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
 /*
+Runtime: 5 ms, faster than 82.93%
+Memory Usage: 44.7 MB, less than 76.36%
+
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> hash = new HashSet<Integer>();
         for(int i : nums){
