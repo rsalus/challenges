@@ -83,7 +83,7 @@ Post-order Traversal:
         Tree deletion
         Postfix expression notation (Reverse Polish notation)
 
-Level-order Traversal:
+Level-order Traversal (BFS):
 
     Order: Level by level (from left to right)
     Idea: Use a queue to process nodes level by level.
